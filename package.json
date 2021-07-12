@@ -10,10 +10,6 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "build": "tsc",
-    "prepack": "tsc"
-  },
   "devDependencies": {
     "@types/node": "^14.14.25",
     "@types/yargs": "^17.0.2",
