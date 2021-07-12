@@ -2,16 +2,14 @@
   "name": "axios-cmd",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "dist/index.js",
   "bin": {
     "axios": "dist/index.js"
   },
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "postinstall": "tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^14.14.25",
